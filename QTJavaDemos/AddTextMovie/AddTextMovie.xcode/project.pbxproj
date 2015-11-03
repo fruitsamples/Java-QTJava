@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		01F12F4CFEC8CE2211DB9C8B = {
+			buildSettings = {
+			};
+			buildStyles = (
+				0E20B662001FAFA711DB9C8B,
+				0E20B663001FAFA711DB9C8B,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 01F12F4DFEC8CE2211DB9C8B;
+			productRefGroup = 01F12F4FFEC8CEF111DB9C8B;
+			projectDirPath = "";
+			targets = (
+				1601BCDBFEEE210811DB9C8B,
+			);
+		};
+		01F12F4DFEC8CE2211DB9C8B = {
+			children = (
+				BE87985F04D85CDD00FD1A08,
+				BE87987804D85FA800FD1A08,
+				01F12F4FFEC8CEF111DB9C8B,
+				BE87986604D85D6800FD1A08,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		01F12F4FFEC8CEF111DB9C8B = {
+			children = (
+				06D05853FF24F2DB11DB9C8B,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//010
+//011
+//012
+//013
+//014
+//060
+//061
+//062
+//063
+//064
+		06D05853FF24F2DB11DB9C8B = {
+			expectedFileType = wrapper.application;
+			fallbackIsa = PBXFileReference;
+			isa = PBXApplicationReference;
+			path = AddTextMovie.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//060
+//061
+//062
+//063
+//064
+//0E0
+//0E1
+//0E2
+//0E3
+//0E4
+		0E20B662001FAFA711DB9C8B = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		0E20B663001FAFA711DB9C8B = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//0E0
+//0E1
+//0E2
+//0E3
+//0E4
+//160
+//161
+//162
+//163
+//164
+		1601BCDBFEEE210811DB9C8B = {
+			buildPhases = (
+				1601BCDCFEEE210811DB9C8B,
+				1601BCDEFEEE210811DB9C8B,
+				1601BCDFFEEE210811DB9C8B,
+				1601BCE2FEEE210811DB9C8B,
+				6A869E8001E69FA10CC91562,
+			);
+			buildSettings = {
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_COMPILER_TARGET_VM_VERSION = 1.4;
+				JAVA_ONLY = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = AddTextMovie;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = AddTextMovie;
+			productName = AddText;
+			productReference = 06D05853FF24F2DB11DB9C8B;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AddTextMovie</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string>AddTextMovie.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AddText</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>Java</key>
+	<dict>
+		<key>ClassPath</key>
+		<array>
+			<string>$JAVAROOT/AddTextMovie.jar</string>
+		</array>
+		<key>JVMVersion</key>
+		<string>1.4+</string>
+		<key>MainClass</key>
+		<string>AddText</string>
+		<key>Properties</key>
+		<dict>
+			<key>apple.laf.useScreenMenuBar</key>
+			<string>true</string>
+			<key>com.apple.macos.useScreenMenuBar</key>
+			<string>true</string>
+			<key>com.apple.mrj.application.apple.menu.about.name</key>
+			<string>AddTextMovie</string>
+		</dict>
+	</dict>
+	<key>NSJavaNeeded</key>
+	<string>YES</string>
+	<key>NSJavaPath</key>
+	<array>
+		<string>AddTextMovie.jar</string>
+	</array>
+	<key>NSJavaRoot</key>
+	<string>Contents/Resources/Java</string>
+</dict>
+</plist>
+";
+		};
+		1601BCDCFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				BE87986104D85CEE00FD1A08,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDEFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				BE87987904D85FA800FD1A08,
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDFFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCE2FEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				BE87986704D85D6800FD1A08,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//160
+//161
+//162
+//163
+//164
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+		6A869E8001E69FA10CC91562 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${TARGET_BUILD_DIR}\" = \"\" ]; \nthen\n    TARGET_BUILD_DIR=${BUILD_DIR}\nfi\n\nALERTSTRINGS=\"OldJavaAlert.strings\"\nAPPLAUNCHRESDIR=\"/System/Library/PrivateFrameworks/JavaApplicationLauncher.framework/Resources\";\nLSH=`/bin/ls $APPLAUNCHRESDIR | /usr/bin/grep lproj`;\nRESOURCEDIR=\"${TARGET_BUILD_DIR}/$TARGET_NAME.app/Contents/Resources\"\n\nfor COPYDIR in $LSH\ndo\n        /bin/mkdir -p \"$RESOURCEDIR/$COPYDIR\"\n        /bin/cp \"$APPLAUNCHRESDIR/$COPYDIR/$ALERTSTRINGS\" \"$RESOURCEDIR/$COPYDIR\"\ndone";
+		};
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+//BE0
+//BE1
+//BE2
+//BE3
+//BE4
+		BE87985F04D85CDD00FD1A08 = {
+			children = (
+				BE87986004D85CEE00FD1A08,
+			);
+			isa = PBXGroup;
+			name = src;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE87986004D85CEE00FD1A08 = {
+			expectedFileType = sourcecode.java;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = AddText.java;
+			path = src/AddText.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE87986104D85CEE00FD1A08 = {
+			fileRef = BE87986004D85CEE00FD1A08;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE87986604D85D6800FD1A08 = {
+			expectedFileType = archive.zip;
+			isa = PBXFileReference;
+			name = QTJava.zip;
+			path = /System/Library/Java/Extensions/QTJava.zip;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BE87986704D85D6800FD1A08 = {
+			fileRef = BE87986604D85D6800FD1A08;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE87987804D85FA800FD1A08 = {
+			expectedFileType = image.icns;
+			isa = PBXFileReference;
+			path = AddTextMovie.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE87987904D85FA800FD1A08 = {
+			fileRef = BE87987804D85FA800FD1A08;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = "";
+			};
+		};
+	};
+	rootObject = 01F12F4CFEC8CE2211DB9C8B;
+}

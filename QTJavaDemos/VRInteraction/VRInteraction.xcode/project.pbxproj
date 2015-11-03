@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		01F12F4CFEC8CE2211DB9C8B = {
+			buildStyles = (
+				0E20B662001FAFA711DB9C8B,
+				0E20B663001FAFA711DB9C8B,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 01F12F4DFEC8CE2211DB9C8B;
+			productRefGroup = 01F12F4FFEC8CEF111DB9C8B;
+			projectDirPath = "";
+			targets = (
+				1601BCDBFEEE210811DB9C8B,
+			);
+		};
+		01F12F4DFEC8CE2211DB9C8B = {
+			children = (
+				BE71954C04D88D7E00CA21C2,
+				BE71954704D88D4200CA21C2,
+				01F12F4FFEC8CEF111DB9C8B,
+				BE71954A04D88D5900CA21C2,
+				10F9BF62FEEDA25E11DB9C8B,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		01F12F4FFEC8CEF111DB9C8B = {
+			children = (
+				06D05853FF24F2DB11DB9C8B,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//010
+//011
+//012
+//013
+//014
+//060
+//061
+//062
+//063
+//064
+		06D05853FF24F2DB11DB9C8B = {
+			expectedFileType = wrapper.application;
+			fallbackIsa = PBXFileReference;
+			isa = PBXApplicationReference;
+			path = vrInteraction.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//060
+//061
+//062
+//063
+//064
+//0E0
+//0E1
+//0E2
+//0E3
+//0E4
+		0E20B662001FAFA711DB9C8B = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		0E20B663001FAFA711DB9C8B = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//0E0
+//0E1
+//0E2
+//0E3
+//0E4
+//100
+//101
+//102
+//103
+//104
+		10F9BF62FEEDA25E11DB9C8B = {
+			expectedFileType = image.icns;
+			isa = PBXFileReference;
+			path = vrInteraction.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//100
+//101
+//102
+//103
+//104
+//160
+//161
+//162
+//163
+//164
+		1601BCDBFEEE210811DB9C8B = {
+			buildPhases = (
+				1601BCDCFEEE210811DB9C8B,
+				1601BCDEFEEE210811DB9C8B,
+				1601BCDFFEEE210811DB9C8B,
+				1601BCE2FEEE210811DB9C8B,
+				6A88643101E695080CC91562,
+			);
+			buildSettings = {
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_COMPILER_TARGET_VM_VERSION = 1.4;
+				JAVA_ONLY = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = vrInteraction;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = vrInteraction;
+			productName = vrInteraction;
+			productReference = 06D05853FF24F2DB11DB9C8B;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>vrInteraction</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string>vrInteraction.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>vrInteraction</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>Java</key>
+	<dict>
+		<key>ClassPath</key>
+		<string>$JAVAROOT/vrInteraction.jar</string>
+		<key>JVMVersion</key>
+		<string>1.4+</string>
+		<key>MainClass</key>
+		<string>vrInteraction</string>
+		<key>Properties</key>
+		<dict>
+			<key>com.apple.macos.useScreenMenuBar</key>
+			<string>true</string>
+			<key>com.apple.mrj.application.apple.menu.about.name</key>
+			<string>vrInteraction</string>
+		</dict>
+	</dict>
+	<key>NSJavaNeeded</key>
+	<string>YES</string>
+	<key>NSJavaPath</key>
+	<array>
+		<string>vrInteraction.jar</string>
+	</array>
+	<key>NSJavaRoot</key>
+	<string>Contents/Resources/Java</string>
+</dict>
+</plist>
+";
+		};
+		1601BCDCFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				BE71954904D88D4F00CA21C2,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDEFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				BE71954D04D88D7E00CA21C2,
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDFFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCE2FEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				BE71954B04D88D5900CA21C2,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//160
+//161
+//162
+//163
+//164
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+		6A88643101E695080CC91562 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${TARGET_BUILD_DIR}\" = \"\" ]; \nthen\n    TARGET_BUILD_DIR=${BUILD_DIR}\nfi\n\nALERTSTRINGS=\"OldJavaAlert.strings\"\nAPPLAUNCHRESDIR=\"/System/Library/PrivateFrameworks/JavaApplicationLauncher.framework/Resources\";\nLSH=`/bin/ls $APPLAUNCHRESDIR | /usr/bin/grep lproj`;\nRESOURCEDIR=\"${TARGET_BUILD_DIR}/$TARGET_NAME.app/Contents/Resources\"\n\nfor COPYDIR in $LSH\ndo\n        /bin/mkdir -p $RESOURCEDIR/$COPYDIR\n        /bin/cp \"$APPLAUNCHRESDIR/$COPYDIR/$ALERTSTRINGS\" \"$RESOURCEDIR/$COPYDIR\"\ndone";
+		};
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+//BE0
+//BE1
+//BE2
+//BE3
+//BE4
+		BE71954704D88D4200CA21C2 = {
+			children = (
+				BE71954804D88D4F00CA21C2,
+			);
+			isa = PBXGroup;
+			name = src;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE71954804D88D4F00CA21C2 = {
+			expectedFileType = sourcecode.java;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = vrInteraction.java;
+			path = src/vrInteraction.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE71954904D88D4F00CA21C2 = {
+			fileRef = BE71954804D88D4F00CA21C2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE71954A04D88D5900CA21C2 = {
+			expectedFileType = archive.zip;
+			isa = PBXFileReference;
+			name = QTJava.zip;
+			path = /System/Library/Java/Extensions/QTJava.zip;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BE71954B04D88D5900CA21C2 = {
+			fileRef = BE71954A04D88D5900CA21C2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE71954C04D88D7E00CA21C2 = {
+			expectedFileType = text;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = readme.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE71954D04D88D7E00CA21C2 = {
+			fileRef = BE71954C04D88D7E00CA21C2;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = "";
+			};
+		};
+	};
+	rootObject = 01F12F4CFEC8CE2211DB9C8B;
+}

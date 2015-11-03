@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		00E6828EFEC88D1A11DB9C8B = {
+			buildSettings = {
+			};
+			buildStyles = (
+				130F8B80001BD9A911CA292A,
+				130F8B81001BD9A911CA292A,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 00E6828FFEC88D1A11DB9C8B;
+			productRefGroup = 0120612AFEC8923411DB9C8B;
+			projectDirPath = "";
+			targets = (
+				130F8B84001BDB6411CA292A,
+			);
+		};
+		00E6828FFEC88D1A11DB9C8B = {
+			children = (
+				0120612AFEC8923411DB9C8B,
+				07A0C37004E2DFBF0065078E,
+				07A0C37504E2DFBF0065078E,
+				07A0C37F04E2DFDD0065078E,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//000
+//001
+//002
+//003
+//004
+//010
+//011
+//012
+//013
+//014
+		0120612AFEC8923411DB9C8B = {
+			children = (
+				329C727C0360BF8700C91783,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//010
+//011
+//012
+//013
+//014
+//070
+//071
+//072
+//073
+//074
+		07A0C37004E2DFBF0065078E = {
+			children = (
+				07A0C37104E2DFBF0065078E,
+				07A0C37404E2DFBF0065078E,
+			);
+			isa = PBXGroup;
+			path = classes;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		07A0C37104E2DFBF0065078E = {
+			children = (
+				07A0C37204E2DFBF0065078E,
+				07A0C37304E2DFBF0065078E,
+			);
+			isa = PBXGroup;
+			name = images;
+			path = /private/var/automount/Network/Servers/cauchy/homes/gollum/asonone/qtjSDKsubmit/QTJavaDemos/Applets/QTStreamingApplet/classes/images;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		07A0C37204E2DFBF0065078E = {
+			expectedFileType = image.gif;
+			isa = PBXFileReference;
+			path = p1.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		07A0C37304E2DFBF0065078E = {
+			expectedFileType = image.gif;
+			isa = PBXFileReference;
+			path = r1.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		07A0C37404E2DFBF0065078E = {
+			expectedFileType = text.html;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = example1.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		07A0C37504E2DFBF0065078E = {
+			children = (
+				07A0C37604E2DFBF0065078E,
+				07A0C37704E2DFBF0065078E,
+				07A0C37804E2DFBF0065078E,
+			);
+			isa = PBXGroup;
+			path = src;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		07A0C37604E2DFBF0065078E = {
+			expectedFileType = sourcecode.java;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = IconButton.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		07A0C37704E2DFBF0065078E = {
+			expectedFileType = sourcecode.java;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = PopupMenuButton.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		07A0C37804E2DFBF0065078E = {
+			expectedFileType = sourcecode.java;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = QTStreamingApplet.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		07A0C37904E2DFBF0065078E = {
+			fileRef = 07A0C37204E2DFBF0065078E;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = classes/images;
+			};
+		};
+		07A0C37A04E2DFBF0065078E = {
+			fileRef = 07A0C37304E2DFBF0065078E;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = classes/images;
+			};
+		};
+		07A0C37B04E2DFBF0065078E = {
+			fileRef = 07A0C37404E2DFBF0065078E;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = classes;
+			};
+		};
+		07A0C37C04E2DFBF0065078E = {
+			fileRef = 07A0C37604E2DFBF0065078E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		07A0C37D04E2DFBF0065078E = {
+			fileRef = 07A0C37704E2DFBF0065078E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		07A0C37E04E2DFBF0065078E = {
+			fileRef = 07A0C37804E2DFBF0065078E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		07A0C37F04E2DFDD0065078E = {
+			expectedFileType = archive.zip;
+			isa = PBXFileReference;
+			name = QTJava.zip;
+			path = /System/Library/Java/Extensions/QTJava.zip;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		07A0C38004E2DFDE0065078E = {
+			fileRef = 07A0C37F04E2DFDD0065078E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		07A0C38704E2DFF20065078E = {
+			fileRef = 07A0C37204E2DFBF0065078E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		07DAE30504E2E09100656BE2 = {
+			fileRef = 07A0C37304E2DFBF0065078E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		07DAE30604E2E09500656BE2 = {
+			fileRef = 07A0C37404E2DFBF0065078E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//070
+//071
+//072
+//073
+//074
+//130
+//131
+//132
+//133
+//134
+		130F8B80001BD9A911CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		130F8B81001BD9A911CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		130F8B84001BDB6411CA292A = {
+			buildPhases = (
+				130F8B85001BDB6411CA292A,
+				130F8B87001BDB6411CA292A,
+				130F8B88001BDB6411CA292A,
+				130F8B89001BDB6411CA292A,
+			);
+			buildSettings = {
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = QTStreamingApplet;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = QTStreamingApplet;
+			productInstallPath = /usr/local/bin;
+			productName = JavaAWTApplet;
+			productReference = 329C727C0360BF8700C91783;
+		};
+		130F8B85001BDB6411CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				07A0C37C04E2DFBF0065078E,
+				07A0C37D04E2DFBF0065078E,
+				07A0C37E04E2DFBF0065078E,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B87001BDB6411CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				07A0C37904E2DFBF0065078E,
+				07A0C37A04E2DFBF0065078E,
+				07A0C37B04E2DFBF0065078E,
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B88001BDB6411CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				07A0C38004E2DFDE0065078E,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B89001BDB6411CA292A = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				07A0C38704E2DFF20065078E,
+				07DAE30504E2E09100656BE2,
+				07DAE30604E2E09500656BE2,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//130
+//131
+//132
+//133
+//134
+//320
+//321
+//322
+//323
+//324
+		329C727C0360BF8700C91783 = {
+			expectedFileType = archive.jar;
+			fallbackIsa = PBXFileReference;
+			includeInIndex = 0;
+			isa = PBXZipArchiveReference;
+			path = QTStreamingApplet.jar;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+	};
+	rootObject = 00E6828EFEC88D1A11DB9C8B;
+}
